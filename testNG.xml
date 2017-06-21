@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "TestNG Yoti">
+
+    <test name="LoginTest">
+        <classes>
+            <class name="TestCases.loginTest"></class>
+        </classes>
+    </test>
+
+    <test name="InvalidLoginTest">
+        <classes>
+            <class name = "TestCases.InvalidLoginTest"></class>
+        </classes>
+    </test>
+
+    <test name="CreateWishListTest">
+        <classes>
+            <class name = "TestCases.createWishListTest"></class>
+        </classes>
+    </test>
+
+    <test name="CreateAWishListTest">
+        <classes>
+            <class name = "TestCases.createWishListTest"></class>
+        </classes>
+    </test>
+
+    <test name="BuyADressTest">
+        <classes>
+            <class name = "TestCases.buyDressTest"></class>
+        </classes>
+    </test>
+
+</suite>
