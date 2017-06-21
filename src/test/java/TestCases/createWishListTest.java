@@ -36,7 +36,7 @@ public class createWishListTest extends base {
         System.out.println(driver.getTitle());
 
         File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(srcFile, new File("C:\\WIP\\FirstAutomationProject\\YotiTest\\src\\main\\java\\Screenshots\\Pic6.jpg"));
+        FileUtils.copyFile(srcFile, new File("C:\\WIP\\FirstAutomationProject\\YotiTest\\src\\main\\java\\Screenshots\\createWishListTest.jpg"));
         driver.close();
     }
 

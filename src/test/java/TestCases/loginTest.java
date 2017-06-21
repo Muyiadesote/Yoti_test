@@ -31,7 +31,7 @@ public class loginTest extends base {
         Assert.assertTrue(lp.confirmLoin());
 
         File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(srcFile, new File("C:\\WIP\\FirstAutomationProject\\YotiTest\\src\\main\\java\\Screenshots\\Pic1.jpg"));
+        FileUtils.copyFile(srcFile, new File("C:\\WIP\\FirstAutomationProject\\YotiTest\\src\\main\\java\\Screenshots\\login.jpg"));
         driver.close();
 
     }
