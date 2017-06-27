@@ -35,10 +35,10 @@ public class editAddressTest extends base {
         eap.selOption("New Jersey");
 
         File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(srcFile, new File("C:\\WIP\\FirstAutomationProject\\YotiTest\\src\\main\\java\\Screenshots\\Pic3.jpg"));
+        FileUtils.copyFile(srcFile, new File("C:\\WIP\\FirstAutomationProject\\YotiTest\\src\\main\\java\\Screenshots\\editAddressTest.jpg"));
         eap.SaveNewAddr();
         File srcFile1 = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(srcFile1, new File("C:\\WIP\\FirstAutomationProject\\YotiTest\\src\\main\\java\\Screenshots\\Pic4.jpg"));
+        FileUtils.copyFile(srcFile1, new File("C:\\WIP\\FirstAutomationProject\\YotiTest\\src\\main\\java\\Screenshots\\editAddressTest2.jpg"));
         Assert.assertTrue(eap.AssertNewAddr());
         driver.close();
     }

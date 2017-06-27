@@ -28,7 +28,7 @@ public class InvalidLoginTest extends base {
         Assert.assertTrue(lp.InvalidLoginMsg());
 
         File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(srcFile, new File("C:\\WIP\\FirstAutomationProject\\YotiTest\\src\\main\\java\\Screenshots\\Pic2.jpg"));
+        FileUtils.copyFile(srcFile, new File("C:\\WIP\\FirstAutomationProject\\YotiTest\\src\\main\\java\\Screenshots\\InvalidLogin.jpg"));
         driver.close();
     }
 }
