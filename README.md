@@ -11,7 +11,7 @@ The file location of the screenshot commands within the testcase classes
 
 ## This test contains SWITCH TO FRAME METHOD in the AddToWishList Page
 '''
-    public void add2WishList() throws InterruptedException {
+ public void add2WishList() throws InterruptedException {
 
         WomenSection.click();
         Thread.sleep(6500);
