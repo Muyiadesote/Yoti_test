@@ -10,7 +10,7 @@ The file location of the screenshot commands within the testcase classes
 ## Path of the chromedriver exe file
 
 ## This test contains SWITCH TO FRAME METHOD in the AddToWishList Page
-'''
+```
  public void add2WishList() throws InterruptedException {
 
         WomenSection.click();
@@ -28,4 +28,4 @@ The file location of the screenshot commands within the testcase classes
         Thread.sleep(1000);
         closeAddtoWishlistMsg.click();
     }
-'''
+```
